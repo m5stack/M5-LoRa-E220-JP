@@ -51,7 +51,8 @@ typedef enum {
 } rssi_ambient_noise_flag_t;
 
 typedef enum {
-    TX_POWER_13dBm = 0b01,
+    TX_POWER_13dBm = 0b00,
+    TX_POWER_12dBm = 0b01,
     TX_POWER_7dBm  = 0b10,
     TX_POWER_0dBm  = 0b11
 } transmitting_power_val_t;
